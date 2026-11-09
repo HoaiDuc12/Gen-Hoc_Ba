@@ -1,0 +1,99 @@
+{
+  "template_id": "B",
+  "name": "Mẫu B - Học bạ THPT (Bản scan giấy trắng CamScanner)",
+  "layout": "B",
+  "page_size": [1240, 1754],
+  "dpi": 150,
+  "colors": {
+    "paper": [253, 253, 253],
+    "line": [35, 35, 35],
+    "text": [22, 22, 22]
+  },
+  "fonts": {
+    "regular": ["C:/Windows/Fonts/times.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"],
+    "bold": ["C:/Windows/Fonts/timesbd.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"],
+    "italic": ["C:/Windows/Fonts/timesi.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"],
+    "bold_italic": ["C:/Windows/Fonts/timesbi.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf"]
+  },
+  "font_sizes": {
+    "header_info": 24,
+    "table_header": 22,
+    "cell": 24,
+    "cell_sub": 20,
+    "date_line": 22,
+    "footer_title": 22,
+    "footer_sub": 21,
+    "footer_name": 23
+  },
+  "margins": { "top": 85, "left": 65, "right": 55, "bottom": 70 },
+  "header_info": {
+    "line_gap": 42,
+    "col_x_ratios": [0.0, 0.44, 0.74],
+    "line1": [
+      ["Họ tên học sinh: ", "student_name"],
+      ["Lớp: ", "class_name"],
+      ["Năm học: ", "school_year"]
+    ],
+    "line2_label": "Các môn học nâng cao: "
+  },
+  "table": {
+    "gap_after_info": 28,
+    "header_height": 195,
+    "header_split_ratio": 0.62,
+    "row_height": 41,
+    "last_row_height": 55,
+    "line_width": 2,
+    "col_ratios": [0.19, 0.08, 0.08, 0.08, 0.095, 0.475],
+    "header_texts": {
+      "subject": ["Môn học/", "Hoạt động GD"],
+      "score_group": ["Điểm trung bình hoặc", "xếp loại các môn"],
+      "hk1": ["HKỳ I"],
+      "hk2": ["HKỳ II"],
+      "cn": ["CN"],
+      "retest": ["Điểm hoặc", "xếp loại", "sau KT lại", "(nếu có)"],
+      "teacher": [
+        "Giáo viên bộ môn ký xác nhận ĐTB",
+        "môn học, xếp loại, sửa chữa hoặc nhận",
+        "xét (nếu có)",
+        "(ký và ghi rõ họ tên)"
+      ]
+    },
+    "merged_rows": {
+      "GDCD": {
+        "span": 2,
+        "style": "sample_b"
+      }
+    }
+  },
+  "subjects": [
+    "Toán học",
+    "Vật lí",
+    "Hóa học",
+    "Sinh học",
+    "Tin học",
+    "Ngữ văn",
+    "Lịch sử",
+    "Địa lí",
+    "Tiếng Anh (10 năm)",
+    "GDCD",
+    "Công nghệ",
+    "Thể dục",
+    "GDQP",
+    "Nghề PT",
+    "Điểm TB các môn học"
+  ],
+  "footer": {
+    "has_outer_frame": false,
+    "gap_after_table": 42,
+    "date_line_x_ratio": 0.73,
+    "title_gap_after_date": 30,
+    "sub_offset": 38,
+    "name_offset": 160,
+    "left_x_ratio": 0.25,
+    "right_x_ratio": 0.73,
+    "gvcn_title": "Xác nhận của giáo viên chủ nhiệm",
+    "gvcn_sub": "(Ký và ghi rõ họ tên)",
+    "principal_title": "Xác nhận của Hiệu trưởng",
+    "principal_sub": "(Ký, ghi rõ họ tên và đóng dấu)"
+  }
+}

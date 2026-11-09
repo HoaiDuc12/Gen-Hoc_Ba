@@ -1,0 +1,82 @@
+{
+  "template_id": "A",
+  "name": "Mẫu A - Học bạ THPT (nền chìm trống đồng, chụp điện thoại)",
+  "layout": "A",
+  "page_size": [1240, 1754],
+  "dpi": 150,
+  "colors": {
+    "paper": [242, 236, 226],
+    "line": [40, 38, 36],
+    "text": [28, 26, 24],
+    "watermark": [226, 203, 192],
+    "emblem": [205, 200, 160]
+  },
+  "fonts": {
+    "regular": ["C:/Windows/Fonts/times.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"],
+    "bold": ["C:/Windows/Fonts/timesbd.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"],
+    "italic": ["C:/Windows/Fonts/timesi.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"],
+    "bold_italic": ["C:/Windows/Fonts/timesbi.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf"]
+  },
+  "font_sizes": {
+    "header_info": 25,
+    "table_header": 22,
+    "cell": 24,
+    "footer_title": 23,
+    "footer_sub": 22,
+    "footer_name": 23
+  },
+  "margins": { "top": 112, "left": 130, "right": 80, "bottom": 110 },
+  "header_info": {
+    "line_gap": 38,
+    "col_x_ratios": [0.0, 0.43, 0.73],
+    "line1": [["Họ và tên: ", "student_name"], ["Lớp: ", "class_name"], ["Năm học: ", "school_year"]],
+    "line2": [["Ban: ", "ban"], ["Môn chuyên: ", "specialized_subject"]]
+  },
+  "table": {
+    "gap_after_info": 22,
+    "header_height": 184,
+    "header_split_ratio": 0.62,
+    "row_height": 38,
+    "last_row_height": 52,
+    "line_width": 2,
+    "col_ratios": [0.18, 0.085, 0.085, 0.085, 0.09, 0.475],
+    "header_texts": {
+      "subject": ["Môn học /", "Hoạt động GD"],
+      "score_group": ["Điểm trung bình hoặc xếp loại", "các môn"],
+      "hk1": ["H Kỳ I"],
+      "hk2": ["H Kỳ II"],
+      "cn": ["CN"],
+      "retest": ["Điểm", "hoặc xếp", "loại sau", "KT lại", "(nếu có)"],
+      "teacher": ["Giáo viên bộ môn ký xác nhận", "ĐTB môn học hoặc xếp loại và", "sửa chữa (nếu có),", "(Ký và ghi rõ họ tên)"]
+    },
+    "elective_row": "Tự Chọn",
+    "elective_split_ratio": 0.58
+  },
+  "subjects": [
+    "Toán", "Vật lí", "Hóa học", "Sinh học", "Tin học", "Ngữ Văn", "Lịch sử", "Địa lí",
+    "Tiếng Anh", "GDCD", "Công Nghệ", "Thể dục", "GDQP AN", "Nghề phổ thông", "Tự Chọn",
+    "ĐTB các môn học"
+  ],
+  "watermark": {
+    "enabled": true,
+    "center_ratio": [0.5, 0.53],
+    "emblem_enabled": true,
+    "emblem_radius": 100,
+    "emblem_text": "DẠY TỐT - HỌC TỐT",
+    "emblem_year": "2021"
+  },
+  "footer": {
+    "note": "Trong bảng này không có chỗ sửa chữa.",
+    "note_offset": 34,
+    "title_offset": 128,
+    "sub_offset": 40,
+    "name_from_bottom": 62,
+    "frame_bottom_from_page": 110,
+    "left_x_ratio": 0.25,
+    "right_x_ratio": 0.75,
+    "gvcn_title": "Xác nhận của Giáo viên chủ nhiệm",
+    "gvcn_sub": "(Ký và ghi rõ họ tên)",
+    "principal_title": "Xác nhận của Hiệu trưởng",
+    "principal_sub": "(Ký, ghi rõ họ tên và đóng dấu)"
+  }
+}
